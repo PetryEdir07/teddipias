@@ -1,0 +1,180 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+header{
+    background-color: brown;
+    height: 200px;
+}
+body{
+   text-align: center;
+}
+main{
+    height: 2300px;
+    background-color: dimgray;
+
+}
+footer{
+   display: flex;
+   height: 400px;
+   color: white ;
+   background-color: black;
+}
+.card{
+   /* border: red solid 2px; */
+   background-color: rgb(255, 255, 255);
+   height: 197px;
+   width: 350px;
+   margin: 10px;
+   padding: 2px;
+   color: black;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.card:hover{
+   box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.botao{
+   border: 2px red;
+   border-radius: 5px;
+   width: 200px;
+   color: red;
+   font-size: large;
+   
+}
+/* muda cor do botao e do texto */
+
+.botao:hover{
+   color: white;  
+   background-color: red;
+}
+.lula{
+   background-color: dimgray;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.morango{
+   background-color: dimgray;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.menu{
+   background-color: aliceblue;
+   padding: 15px;
+}
+.menu a{
+   text-decoration: none;
+   font-size: larger;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   transition: 0.9s;
+   padding: 5px;
+}
+.menu a:hover{
+   color: black;
+   text-decoration: underline;
+   background-color: darkred;
+   border-radius: 3px;
+}
+
+.menu li{
+   display: inline;
+   padding: 25px;
+}
+ .logo{
+    width: 210px;
+    border-radius: 25%;
+    padding: 15px;
+    margin-top: -77px;
+ }
+ .produtocard{
+    width: 310px;
+    height: 200px;
+ }
+ .carrinho{
+   display: flex;
+   margin-left: 1850px;
+   width: 55px;
+   position: relative;
+   margin-top: -175px;
+}
+.titulo{
+   position: relative;
+   margin-top: -20px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+}
+.options{
+   display: flex;
+   position: relative;
+   width: 55px;
+   padding: 8px;
+}
+.carlinhos{
+   padding: 35px;
+}
+.slider {
+   padding: 10px;
+    width: 1830px; /* Largura visível do slider */
+    height: 400px; /* Altura do slider */
+    overflow: hidden; /* Esconde as imagens que estão fora da área visível */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.slider-content {
+    display: flex;
+    /* Define a largura total para todas as imagens (ex: 6 imagens * 600px = 3600px) */
+    width: 3600px; 
+    /* Aplica a animação: nome, duração, tipo de repetição, função de tempo (linear para movimento constante) */
+    animation: slide-animation 30s infinite linear; 
+}
+
+.slider-content img {
+    width: 600px; /* Cada imagem tem a largura do contêiner visível */
+    height: 400px;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+}
+
+/* Define a animação */
+@keyframes slide-animation {
+    0% {
+        transform: translateX(0); /* Início: na primeira imagem */
+    }
+    100% {
+        /* Fim: move para a esquerda pela largura de metade das imagens (3 * 600px = 1800px) 
+        Isso faz com que o loop pareça contínuo se você duplicou as imagens no HTML */
+        transform: translateX(-1800px); 
+    }
+}
+.prom{
+   width: 345px;
+}
+.mais{
+   width: 150px;
+}
+.gov{
+   padding: 25px;
+   width: 200px;
+}
+.govv{
+   width: 350px;
+}
+.informacoes{
+   padding: 55px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
