@@ -17,7 +17,7 @@
  }
  footer{
    display: flex;
-   height: 250px;
+   height: 450px;
    color: white ;
    background-color: black;
 }
@@ -159,7 +159,7 @@ form {
 }
 .gov{
    padding: 25px;
-   width: 200px;
+   width: 150px;
 }
 .govv{
    width: 350px;
@@ -169,5 +169,15 @@ form {
    margin: 20px;
    display: flex;
    flex-direction: column;
-   text-align: center;
+   text-align: start;
+}
+.instagran{
+   width: 100px;
+   padding: 25px;
+}
+.insta{
+   width: 75px;
+}
+.instouto a{
+   text-decoration: none;
 }

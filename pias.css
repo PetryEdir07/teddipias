@@ -17,9 +17,10 @@ main{
 }
 footer{
    display: flex;
-   height: 400px;
+   height: 450px;
    color: white ;
    background-color: black;
+   text-align: start;
 }
 .card{
    /* border: red solid 2px; */
@@ -165,7 +166,7 @@ footer{
 }
 .gov{
    padding: 25px;
-   width: 200px;
+   width: 150px;
 }
 .govv{
    width: 350px;
@@ -175,6 +176,16 @@ footer{
    margin: 20px;
    display: flex;
    flex-direction: column;
-   text-align: center;
+   text-align: start;
+}
+.instagran{
+   width: 100px;
+   padding: 25px;
+}
+.insta{
+   width: 75px;
+}
+.instouto a{
+   text-decoration: none;
 }
 
